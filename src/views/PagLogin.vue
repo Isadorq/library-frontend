@@ -16,7 +16,7 @@
           <input type="button" value="Enviar" @click.prevent="handleLogin" />
         </div>
         <div class="register">
-          <router-link to="/AddUser">
+          <router-link to="/PagCadastro">
             <input type="button" value="Cadastre-se" />
           </router-link>
         </div>
