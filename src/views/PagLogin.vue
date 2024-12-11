@@ -13,11 +13,10 @@
 
       <div class="button">
         <div class="send">
-          <!-- Removido o router-link dentro do botão, pois vamos usar o push no método -->
           <input type="button" value="Enviar" @click.prevent="handleLogin" />
         </div>
         <div class="register">
-          <router-link to="/register">
+          <router-link to="/AddUser">
             <input type="button" value="Cadastre-se" />
           </router-link>
         </div>
