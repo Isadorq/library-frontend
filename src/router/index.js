@@ -6,6 +6,7 @@ import PagCadastro from '@/views/PagCadastro.vue';
 import PagInicial from '@/views/PagInicial.vue';
 import PagInicio from '@/views/PagInicio.vue';
 import AddLivro from '@/views/AddLivro.vue';
+import PagUser from '@/views/PagUser.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -44,6 +45,11 @@ const router = createRouter({
       path: '/DescLivro',
       name: 'desclivro',
       component: DescLivro,
+    },
+    {
+      path: '/PagUser',
+      name: 'paguser',
+      component: PagUser,
     },
   ]
 });
